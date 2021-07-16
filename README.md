@@ -35,14 +35,15 @@ The repository package has authentication and database repositories. The goal of
 
 ## Screenshots
 
-#### Login, Register Screen:
-<img src="images/login-screen.PNG" width="240" height="523">
-<img src="images/register-screen.PNG" width="240" height="523">
-<br>
-<br>
+Login           |  Register
+:-------------------------:|:-------------------------:
+<img src="images/login-screen.PNG" width="240" height="523">  |  <img src="images/register-screen.PNG" width="240" height="523">
 
-#### Map, History, Profile Screens:
-<img src="images/track-screen.PNG" width="180" height="380">
-<img src="images/history-screen.PNG" width="180" height="380">
-<img src="images/profile-screen.PNG" width="180" height="380">
+
+Track           |  History | Profile
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="images/track-screen.PNG" width="180" height="380"> | <img src="images/history-screen.PNG" width="180" height="380"> |<img src="images/profile-screen.PNG" width="180" height="380">
+
+
+
 
