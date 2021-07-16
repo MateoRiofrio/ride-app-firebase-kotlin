@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mapsFragment">
+
+    <action
+        android:id="@+id/actionGlobalTrackingFragment"
+        app:destination="@+id/mapsFragment"
+        app:launchSingleTop="true" />
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.mriofrio.rideapp.view.MapsFragment"
+        android:label="MapsFragment" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.mriofrio.rideapp.view.HistoryFragment"
+        android:label="history_fragment"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.mriofrio.rideapp.view.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

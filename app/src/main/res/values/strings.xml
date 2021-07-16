@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Ride App</string>
+
+    <!-- Navigation -->
+    <string name="nav_item_track">Track</string>
+    <string name="nav_item_history">History</string>
+    <string name="nav_item_profile">Profile</string>
+
+    <!-- Log in screen -->
+    <string name="btn_log_in_text">Log in</string>
+    <string name="txt_register">Register</string>
+    <string name="btn_sign_up_txt">Sign Up</string>
+    <string name="txt_already_have_account">Already have an account?</string>
+    <string name="link_log_in_txt">Log in</string>
+    <string name="title_register_fragment">Register</string>
+    <string name="title_log_in_fragment">Log In</string>
+
+    <!-- MapViewModel -->
+    <string name="mapsviewmodel_distance"> %.2f km</string>
+    <string name="mapsviewmodel_duration"> %s </string>
+
+    <!-- Foreground Service -->
+    <string name="trackingservice_notification_title">Ride App</string>
+    <string name="trackingservice_notification_message">Time: %s</string>
+
+    <!-- Recycler View Item -->
+    <string name="historyfragment_distance_title">Distance: %.2f mi</string>
+    <string name="historyfragment_date_title">%s</string>
+    <string name="historyfragment_time_title">Time: %s</string>
+    <string name="user_email_title">User e-mail: %s</string>
+    <string name="log_out_button">Log Out</string>
+    <string name="user_rides_profile"># of Rides: %s</string>
+    <string name="profile_title">Profile Info:</string>
+
+</resources>

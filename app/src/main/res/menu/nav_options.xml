@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@drawable/ic_baseline_directions_bike_24"
+        android:title="@string/nav_item_track" />
+
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="@string/nav_item_history" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/nav_item_profile" />
+</menu>

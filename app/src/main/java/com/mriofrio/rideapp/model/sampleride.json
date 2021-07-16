@@ -1,0 +1,20 @@
+{
+  "users": {
+    "9jYx0czMWHfO5Q14qOiXMjtUZiz2": {
+      "rides": {
+        "-Me2CeZd1kGLeu6kz6q2": {
+          "date": "7/7",
+          "distance": 0,
+          "id": "-Me2CeZd1kGLeu6kz6q2",
+          "time": "00:02"
+        },
+        "-Me2D19HZvTifkZcKZa-": {
+          "date": "7/7",
+          "distance": 0,
+          "id": "-Me2D19HZvTifkZcKZa-",
+          "time": "00:04"
+        }
+      }
+    }
+  }
+}
