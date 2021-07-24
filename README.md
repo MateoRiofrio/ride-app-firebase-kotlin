@@ -4,7 +4,15 @@
 
 This app was built using Kotlin and the Google Maps SDK for android. 
 The backend is handled using Google's Firebase for both authentication and database.
-In this app, the user is able to authenticate and store bike rides recorded by the app.
+In this app, the user is able to authenticate and store bike rides recorded by the app. 
+Using Google Maps SDK, the user location is tracked and the distance and speed can be calculated
+using the following formulas: 
+
+a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
+c = 2 ⋅ atan2( √a, √(1−a) )
+d = R ⋅ c 
+
+Where R is the Earth's Radius, φ is latitude, and λ is longitude.
 
 ## Architecture: 
 
