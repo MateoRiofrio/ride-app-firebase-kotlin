@@ -10,7 +10,6 @@ import android.location.Location
 import android.os.Build
 import android.os.Looper
 import android.util.Log
-import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.lifecycle.LifecycleService
 import androidx.lifecycle.MutableLiveData
@@ -170,7 +169,7 @@ class TrackingService : LifecycleService() {
             if (it.size >= 2) {
                 meters.postValue(
                     TrackingUtil.distanceInMeters(
-                        it.first().latitude, it.last().longitude,
+                        it.first().latitude, it.first().longitude,
                         it.last().latitude, it.last().longitude
                     )
                 )
