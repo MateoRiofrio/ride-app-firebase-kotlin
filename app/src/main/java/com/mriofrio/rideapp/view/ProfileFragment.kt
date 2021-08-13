@@ -11,6 +11,9 @@ import com.mriofrio.rideapp.LoginRegisterActivity
 import com.mriofrio.rideapp.R
 import com.mriofrio.rideapp.databinding.FragmentProfileBinding
 
+/**
+ * Fragment that displays user account information
+ */
 class ProfileFragment : Fragment() {
 
     private val auth = FirebaseAuth.getInstance()

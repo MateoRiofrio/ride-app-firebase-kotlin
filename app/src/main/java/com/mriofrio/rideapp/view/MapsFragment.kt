@@ -154,7 +154,6 @@ class MapsFragment : Fragment(), EasyPermissions.PermissionCallbacks {
                 ACCESS_FINE_LOCATION
             )
         }
-
     }
 
     override fun onPermissionsDenied(requestCode: Int, perms: List<String>) {

@@ -16,6 +16,10 @@ import com.mriofrio.rideapp.databinding.FragmentLoginBinding
 import com.mriofrio.rideapp.other.LoginRegisterViewModelFactory
 import com.mriofrio.rideapp.viewmodel.LoginRegisterViewModel
 
+/**
+ * Main Screen shown to prompt user to log in into their account.
+ * TODO: Add logic to cache user log in information for a better user experience.
+ */
 class LoginFragment : Fragment() {
 
     private var _binding: FragmentLoginBinding? = null
@@ -63,8 +67,7 @@ class LoginFragment : Fragment() {
             // if the log in attempt fails (returns false) then validation failed.
             if (result) {
                 subscribeToObservers()
-            }
-            else {
+            } else {
                 Toast.makeText(
                     context,
                     "Email or password not entered.",

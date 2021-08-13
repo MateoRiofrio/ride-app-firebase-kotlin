@@ -13,6 +13,9 @@ import com.mriofrio.rideapp.databinding.FragmentRegisterBinding
 import com.mriofrio.rideapp.other.LoginRegisterViewModelFactory
 import com.mriofrio.rideapp.viewmodel.LoginRegisterViewModel
 
+/**
+ * Fragment that allows the user to register an account through Firebase
+ */
 class RegisterFragment : Fragment() {
 
     private var _binding: FragmentRegisterBinding? = null

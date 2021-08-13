@@ -29,6 +29,9 @@ class MainActivity : AppCompatActivity() {
         navigateToTrackingFragmentIfNeeded(intent)
     }
 
+    /**
+     * Return to map fragment if the user taps on notification.
+     */
     private fun navigateToTrackingFragmentIfNeeded(intent: Intent?) {
         if(intent?.action == ACTION_SHOW_TRACKING_FRAGMENT) {
             val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView)

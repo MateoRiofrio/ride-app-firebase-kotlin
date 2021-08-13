@@ -17,7 +17,9 @@ import com.mriofrio.rideapp.model.Ride
 import com.mriofrio.rideapp.model.RideAdapter
 import com.mriofrio.rideapp.viewmodel.HistoryViewModel
 
-
+/**
+ * Fragment that display a RecyclerView of the user's ride history
+ */
 class HistoryFragment : Fragment() {
 
 
